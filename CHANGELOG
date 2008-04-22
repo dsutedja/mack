@@ -1,3 +1,4 @@
+* Rake server now uses the Thin adapter for Mack. Support for things like Mongrel has been removed from rake server. The app can also be used with `thin start`.
 * gem: genosaurus 1.1.1
 
 ===0.4.6
